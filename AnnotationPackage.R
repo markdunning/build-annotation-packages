@@ -45,7 +45,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
 
-makeBioconductorAnnotation("Humanv4", "HumanHT12v4", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "human")
+makeBioconductorAnnotation("Humanv4", "HumanHT12v4", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "human")
 
 
 #system(paste("/home/dunnin01/software/R-3.0.2/bin/R CMD INSTALL ", outDir, "/", prefix, ".db",sep=""),wait=FALSE)
@@ -86,7 +86,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
 
-makeBioconductorAnnotation("HumanWGDASLv4", "HumanWGDASLv4", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "human")
+makeBioconductorAnnotation("HumanWGDASLv4", "HumanWGDASLv4", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "human")
 
 
 #system(paste("/home/dunnin01/software/R-3.0.2/bin/R CMD INSTALL ", outDir, "/", prefix, ".db",sep=""),wait=FALSE)
@@ -127,7 +127,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 }
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
-makeBioconductorAnnotation("Humanv3", "HumanHT12v3", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "human")
+makeBioconductorAnnotation("Humanv3", "HumanHT12v3", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "human")
 
 
 ##Build and check in the background
@@ -169,7 +169,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 }
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
-makeBioconductorAnnotation("HumanWGDASLv3", "HumanHT12WGDASLv3", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "human")
+makeBioconductorAnnotation("HumanWGDASLv3", "HumanHT12WGDASLv3", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "human")
 
 
 #system(paste("/home/dunnin01/software/R-3.0.2/bin/R CMD INSTALL ", outDir, "/", prefix, ".db",sep=""),wait=FALSE)
@@ -212,7 +212,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
 
-makeBioconductorAnnotation("Humanv2", "HumanWG6v2", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "human")
+makeBioconductorAnnotation("Humanv2", "HumanWG6v2", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "human")
 
 ##Build and check in the background
 
@@ -261,7 +261,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 }
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
-makeBioconductorAnnotation("Humanv1", "HumanWG6v1", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "human")
+makeBioconductorAnnotation("Humanv1", "HumanWG6v1", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "human")
 
 
 ##Build and check in the background
@@ -302,7 +302,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 }
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
-makeBioconductorAnnotation("Mousev2", "MouseWG6v2", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "mouse")
+makeBioconductorAnnotation("Mousev2", "MouseWG6v2", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "mouse")
 
 
 
@@ -341,7 +341,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 }
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
-makeBioconductorAnnotation("Mousev1p1", "MouseWG6v1p1", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "mouse")
+makeBioconductorAnnotation("Mousev1p1", "MouseWG6v1p1", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "mouse")
 
 
 
@@ -388,7 +388,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 }
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
-makeBioconductorAnnotation("Mousev1", "MouseWG6v1", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "mouse")
+makeBioconductorAnnotation("Mousev1", "MouseWG6v1", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "mouse")
 
 
 
@@ -432,7 +432,7 @@ extraInfo[which(extraInfo[,i] == ""),i] = NA
 extraInfo$ArrayAddress <- sub("^[0]+", "", extraInfo$ArrayAddress)
 
 
-makeBioconductorAnnotation("Ratv1", "Ratv1", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.22.0", manTemplate = manTemplate, "rat")
+makeBioconductorAnnotation("Ratv1", "Ratv1", refseq  = tmp$RefSeq_transcripts, IlluminaID = tmp[,1], extraInfo = extraInfo, outDir =".", version = "1.24.0", manTemplate = manTemplate, "rat")
 
 
 
